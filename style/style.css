@@ -38,3 +38,18 @@
   background-color: #8077f5;
   border-radius: 30px;
 }
+
+.install-text {
+  font-size: 8px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+.bi-x {
+  color: red;
+}
+.bi-check2 {
+  color: #8077f5;
+}
