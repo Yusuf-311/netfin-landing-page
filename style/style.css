@@ -16,6 +16,10 @@
   line-height: 93.6px;
 }
 
+.bg-currency {
+  background-color: #8077f5;
+  color: #ffff;
+}
 /* Styling for price buttons */
 .btn-price {
   background: #8077f5;
