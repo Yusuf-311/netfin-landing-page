@@ -16,12 +16,42 @@
 
     <meta name="robots" content="index, follow" />
 
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./style/style.css" />
+    <!-- Browser Logo -->
+    <link rel="icon" href="https://netfin.id/site-assets/netfin/logo.svg" />
+
+    <!-- ../vendor Style -->
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="vendor/simplebar/dist/simplebar.min.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="vendor/tiny-slider/dist/tiny-slider.css"
+    />
+
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="vendor/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" media="screen" href="style/theme.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" media="screen" href="style/style.css" />
+
+    <!-- Bootstrap icon CDN link  -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <!-- Font Style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Inter:wght@200;300;400;600&display=swap"
+      rel="stylesheet"
     />
   </head>
 
@@ -68,7 +98,7 @@
                   <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">About Us</a>
+                  <a class="nav-link" href="pages/about.html">About Us</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="pages/contact.html">Contact Us</a>
@@ -78,7 +108,7 @@
                 </li>
                 <li class="">
                   <button type="button" class="btn btn-price order-3 d-lg-none">
-                    <a href="" class="text-light">Contact</a>
+                    <a href="contact.html" class="text-light">Contact</a>
                   </button>
                 </li>
               </ul>
@@ -90,9 +120,9 @@
         </button>
       </div>
     </header>
-    <article class="overflow-hidden">
+    <main class="">
       <!-- Hero Section -->
-      <section class="min-vh-100 d-flex align-items-center bg-body-tertiary">
+      <section class="min-vh-100 d-flex align-items-center bg-secondary">
         <div class="px-5 row gy-5 row-cols-lg-2 row-cols-1">
           <div class="col order-lg-1">
             <h1>
@@ -124,7 +154,7 @@
           <!-- Service Card 1 -->
           <div class="p-2 col">
             <div class="border-0 card">
-              <div class="p-5 card-body bg-body-tertiary rounded-5">
+              <div class="p-5 card-body bg-secondary rounded-3">
                 <img
                   width="40"
                   height="40"
@@ -153,7 +183,7 @@
           <!-- Service Card 2 -->
           <div class="p-2 rounded col">
             <div class="border-0 card">
-              <div class="p-5 card-body bg-body-tertiary rounded-5">
+              <div class="p-5 card-body bg-secondary rounded-3">
                 <img
                   width="40"
                   height="40"
@@ -182,7 +212,7 @@
           <!-- Service Card 3 -->
           <div class="p-2 rounded col">
             <div class="border-0 card">
-              <div class="p-5 card-body bg-body-tertiary rounded-5">
+              <div class="p-5 card-body bg-secondary rounded-3">
                 <img
                   width="40"
                   height="40"
@@ -211,7 +241,7 @@
           <!-- Service Card 4 -->
           <div class="p-2 rounded col">
             <div class="border-0 card">
-              <div class="p-5 card-body bg-body-tertiary rounded-5">
+              <div class="p-5 card-body bg-secondary rounded-3">
                 <img
                   width="40"
                   height="40"
@@ -241,7 +271,7 @@
       </section>
 
       <!-- Pricing Section -->
-      <section class="py-2 container-fluid bg-body-tertiary">
+      <section class="py-2 container-fluid bg-secondary">
         <div class="container">
           <div class="my-5 text-center">
             <h1>Pricing Plan</h1>
@@ -250,7 +280,7 @@
           <div class="row row-cols-lg-4 row-cols-1 row-cols-md-2">
             <!-- Pricing Card 1 -->
             <div class="col">
-              <div class="mb-3 text-center rounded-5 card">
+              <div class="mb-3 text-center rounded-3 card">
                 <div class="px-3 py-5 card-body">
                   <h2 class="card-title">Free</h2>
                   <p class="card-text">
@@ -269,7 +299,7 @@
             </div>
             <!-- Pricing Card 2 -->
             <div class="col">
-              <div class="mb-3 text-center rounded-5 card">
+              <div class="mb-3 text-center rounded-3 card">
                 <div class="px-3 py-5 card-body">
                   <h2 class="card-title">Basic</h2>
                   <p class="card-text">
@@ -288,7 +318,7 @@
             </div>
             <!-- Pricing Card 3 -->
             <div class="col">
-              <div class="mb-3 text-center rounded-5 card">
+              <div class="mb-3 text-center rounded-3 card">
                 <div class="px-3 py-5 card-body">
                   <h2 class="card-title">Business</h2>
                   <p class="card-text">
@@ -307,7 +337,7 @@
             </div>
             <!-- Pricing Card 4 -->
             <div class="col">
-              <div class="mb-3 text-center rounded-5 card">
+              <div class="mb-3 text-center rounded-3 card">
                 <div class="px-3 py-5 card-body">
                   <h2 class="card-title">Ultimate</h2>
                   <p class="card-text">
@@ -563,12 +593,12 @@
           </div>
         </div>
       </section>
-    </article>
-    <footer class="px-5 pt-5">
+    </main>
+    <footer class="px-5 pt-5 border">
       <!-- Footer Section -->
       <div class="row">
         <div class="col-lg-5">
-          <a class="navbar-brand fw-medium fs-5" href="#">
+          <a class="navbar-brand fw-medium fs-4" href="#">
             <img
               src="image/logo.png"
               alt="Logo"
@@ -587,7 +617,7 @@
           >
             <a
               href="#"
-              class="p-2 text-black bg-body-tertiary rounded-circle d-inline-block"
+              class="p-2 text-black bg-secondary rounded-circle d-inline-block"
             >
               <img
                 width="30"
@@ -598,7 +628,7 @@
             </a>
             <a
               href="#"
-              class="p-2 mx-2 text-black bg-body-tertiary rounded-circle d-inline-block"
+              class="p-2 mx-2 text-black bg-secondary rounded-circle d-inline-block"
             >
               <img
                 width="30"
@@ -609,7 +639,7 @@
             </a>
             <a
               href="#"
-              class="p-2 text-black bg-body-tertiary rounded-circle d-inline-block"
+              class="p-2 text-black bg-secondary rounded-circle d-inline-block"
             >
               <img
                 width="30"
@@ -639,7 +669,7 @@
         <div class="col-lg-3">
           <h6>Stay up to date</h6>
           <p>Subscribe to our news and case studies</p>
-          <div class="px-2 py-2 border input-group rounded-4">
+          <div class="px-2 py-2 border input-group rounded-3">
             <input
               type="text"
               class="border-0 form-control"
@@ -661,6 +691,15 @@
         </div>
       </section>
     </footer>
+    <script src="vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/simplebar/dist/simplebar.min.js"></script>
+    <script src="vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="vendor/tiny-slider/dist/min/tiny-slider.js"></script>
+    <script src="vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="vendor/shufflejs/dist/shuffle.min.js"></script>
+    <script src="vendor/parallax-js/dist/parallax.min.js"></script>
+
+    <script src="js/theme.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
   </body>
 </html>
