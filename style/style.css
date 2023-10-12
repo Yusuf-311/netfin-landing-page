@@ -50,3 +50,7 @@
 .bi-check2 {
   color: #8077f5;
 }
+
+body {
+  overflow-x: auto !important;
+}
