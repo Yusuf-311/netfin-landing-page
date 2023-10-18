@@ -1,0 +1,45 @@
+.background {
+  background-image: url(https://images.unsplash.com/photo-1503951458645-643d53bfd90f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 75vh;
+}
+
+.background h1 {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+label {
+  font-weight: 500;
+}
+
+/* Remove box-shadow  */
+.form-control:focus {
+  box-shadow: none;
+}
+
+.btn-price {
+  background: #8077f5;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  border: 1px solid #8077f5;
+  color: #ffff;
+}
+
+/* Hover effect for price buttons */
+.btn-price:hover {
+  background: #6962d3;
+  color: #ffff;
+}
+
+@media (max-width: 1000px) {
+  .background h1 {
+    font-size: 40px; /* Adjust the font size for mobile screens as needed */
+  }
+  .background,
+  .mask {
+    border-radius: 0 !important;
+  }
+}
