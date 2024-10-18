@@ -56,6 +56,12 @@
     />
   </head>
 
+  <style>
+    i .icon-size {
+      font-size: 400px !important;
+    }
+  </style>
+
   <body class="overflow-x-hidden">
     <main>
       <header
@@ -270,7 +276,7 @@
       <!-- Benefit -->
       <section class="bg-faded-primary py-5 px-5 my-lg-3 my-xl-4 my-xxl-5">
         <h2
-          class="h1 text-center pb-3 pt-2 pt-sm-3 pt-md-4 pt-lg-5 mt-md-3 mt-lg-0 mb-3 mb-lg-4"
+          class="h1 text-center pb-3 pt-2 pt-sm-3 pt-md-4 pt-lg-5 mt-md-3 mt-lg-0 mb-3 mb-lg-5"
         >
           Keunggulan
         </h2>
@@ -279,37 +285,34 @@
         >
           <!-- Item-->
           <div class="col text-center">
-            <div
-              class="ratio ratio-1x1 mx-auto mb-3 mb-sm-4"
-              style="width: 68px"
-            >
-              <i
-                class="bi bi-gear text-primary fs-1 d-flex align-items-center justify-content-center start-0"
-              ></i>
-              <svg
-                class="position-absolute top-0 start-0 text-primary"
-                width="68"
-                height="68"
-                viewBox="0 0 68 68"
-                fill="currentColor"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M56.0059 60.5579C44.1549 78.9787 18.0053 58.9081 6.41191 46.5701C-2.92817 35.5074 -2.81987 12.1818 11.7792 3.74605C30.0281 -6.79858 48.0623 7.40439 59.8703 15.7971C71.6784 24.1897 70.8197 37.5319 56.0059 60.5579Z"
-                  fill-opacity="0.1"
-                ></path>
-              </svg>
-            </div>
+            <img src="images/icons8-gear-100.webp" class="mb-3" alt="" />
+
             <h3 class="h4 pb-2 mb-1">Online support</h3>
           </div>
-          <!-- Item-->
+          <div class="col text-center">
+            <img src="images/icons8-light-100.webp" class="mb-3" alt="" />
+
+            <h3 class="h4 pb-2 mb-1">100% guarantee</h3>
+          </div>
+          <div class="col text-center">
+            <img src="images/icons8-check-100.webp" class="mb-3" alt="" />
+
+            <h3 class="h4 pb-2 mb-1">Work on time</h3>
+          </div>
+          <div class="col text-center">
+            <img src="images/icons8-rocket-100.webp" class="mb-3" alt="" />
+
+            <h3 class="h4 pb-2 mb-1">Free consultation</h3>
+          </div>
+          <!-- 
+     
           <div class="col text-center">
             <div
               class="ratio ratio-1x1 position-relative mx-auto mb-3 mb-sm-4"
               style="width: 68px"
             >
               <i
-                class="bi bi-lightbulb text-primary fs-1 d-flex align-items-center justify-content-center position-absolute start-0"
+                class="bi bi-lightbulb text-primary icon-size fs-1 d-flex align-items-center justify-content-center position-absolute start-0"
               ></i>
               <svg
                 class="position-absolute top-0 start-0 text-primary"
@@ -327,14 +330,14 @@
             </div>
             <h3 class="h4 pb-2 mb-1">100% guarantee</h3>
           </div>
-          <!-- Item-->
+       
           <div class="col text-center">
             <div
               class="ratio ratio-1x1 position-relative mx-auto mb-3 mb-sm-4"
               style="width: 68px"
             >
               <i
-                class="bi bi-check-circle-fill text-primary fs-2 d-flex align-items-center justify-content-center position-absolute start-0"
+                class="bi bi-check-circle-fill icon-size text-primary fs-2 d-flex align-items-center justify-content-center position-absolute start-0"
               ></i>
               <svg
                 class="position-absolute top-0 start-0 text-primary"
@@ -352,14 +355,14 @@
             </div>
             <h3 class="h4 pb-2 mb-1">Work on time</h3>
           </div>
-          <!-- Item-->
+    
           <div class="col text-center">
             <div
               class="ratio ratio-1x1 position-relative mx-auto mb-3 mb-sm-4"
               style="width: 68px"
             >
               <i
-                class="bi bi-rocket text-primary fs-2 d-flex align-items-center justify-content-center position-absolute start-0"
+                class="bi bi-rocket text-primary icon-size fs-2 d-flex align-items-center justify-content-center position-absolute start-0"
               ></i>
               <svg
                 class="position-absolute top-0 start-0 text-primary"
@@ -376,7 +379,7 @@
               </svg>
             </div>
             <h3 class="h4 pb-2 mb-1">Free consultation</h3>
-          </div>
+          </div> -->
         </div>
       </section>
 
@@ -394,12 +397,11 @@
                 action="form-handler.php"
                 method="post"
               >
-                <h2 class="pb-4">Dapatkan Pinjaman Dana Kamu Disini</h2>
+                <h2 class="pb-4">Order Landing Page Hanya Idr 10K / Page</h2>
                 <p
                   class="callout d-block d-md-none d-lg-block fs-lg text-muted mb-grid-gutter"
                 >
-                  Ajukan Pinjaman dengan BPKB MOTOR, BPKB Mobil, atau BPKB
-                  Truck.
+                  Beritahukan kepada kami contact dan kebutuan anda
                 </p>
                 <b>Informasi Diri</b>
                 <div class="input-group mb-3 mt-2">
@@ -438,7 +440,7 @@
                     required="true"
                   />
                 </div>
-                <b>Divisi</b>
+                <b>Keperluan</b>
 
                 <div class="form-check mt-2">
                   <input
@@ -462,7 +464,7 @@
                     value="Marketing BPKB Mobil"
                   />
                   <label class="form-check-label" for="ex-radio-2"
-                    >Marketing BPKB Mobil</label
+                    >Individual</label
                   >
                 </div>
                 <div class="form-check mb-3">
@@ -474,7 +476,7 @@
                     value="Marketing BPKB Motor"
                   />
                   <label class="form-check-label" for="ex-radio-3"
-                    >Marketing BPKB Motor</label
+                    >Business</label
                   >
                 </div>
                 <b>Keterangan Tambahan</b>
@@ -483,7 +485,7 @@
                     class="form-control"
                     rows="4"
                     name="keterangan"
-                    placeholder="Ex. Avanza, Xenia, tahun kendaraan dsb"
+                    placeholder=""
                     required="true"
                   ></textarea>
                 </div>
@@ -499,9 +501,7 @@
           </div>
           <div class="col-lg-6 col-md-6 pt-5 pb-3 py-md-5 text-center">
             <h2 class="h1 text-center">Hubungi Kami</h2>
-            <p class="text-center pb-4 mb-2 mb-lg-3">
-              Kami Adira finance 24 jam siap Melayani
-            </p>
+
             <a
               target="_blank"
               href="https://wa.me/6282116109549?text=Saya%20mau%20pengajuan%20KE%C2%A0FIF"
