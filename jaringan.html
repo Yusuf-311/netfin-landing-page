@@ -15,7 +15,7 @@
     <meta name="robots" content="index, follow" />
 
     <!-- Browser Logo -->
-    <link rel="icon" href="../image/netfin-logo.png" />
+    <link rel="icon" href="images/netfin-logo.png" />
 
     <!-- ../vendor Style -->
 
@@ -52,6 +52,10 @@
       href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Inter:wght@200;300;400;600&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
   </head>
   <body>
     <main>
@@ -75,13 +79,13 @@
             <img
               class="d-none d-lg-block"
               width="50px"
-              src="../image/netfin-logo.png"
+              src="images/netfin-logo.png"
               alt="logo netfin"
             />
             <img
               class="d-lg-none"
               width="50px"
-              src="../image/netfin-logo.png"
+              src="images/netfin-logo.png"
               alt="logo netfin"
             />
           </a>
@@ -162,76 +166,1133 @@
       <section class="" id="body">
         <h1>Jaringan Kami</h1>
       </section>
-      <section class="py-3 mx-5 overflow-y-scroll text-center">
-        <div class="px-2 py-1 my-3 border input-group rounded-4">
-          <input
-            type="text"
-            class="border-0 text-danger form-control"
-            placeholder="Cari Kebutuhan anda disini"
-            aria-label="Input text"
-          />
-          <button class="btn btn-price rounded-4" type="button">Search</button>
+
+      <!-- Section Table -->
+
+      <section class="container p-5 border rounded">
+        <h5>Service History</h5>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, fugiat
+          nisi. Velit, architecto. Ut omnis porro quia qui inventore natus, rem
+          eaque dicta! Possimus earum mollitia, officia modi doloribus animi!
+        </p>
+        <div>
+          <!-- Password visibility toggle -->
+          <div class="row">
+            <div class="col-4">
+              <div class="input-group">
+                <span class="input-group-text">
+                  <i class="fas fa-search"></i>
+                  <!-- Search icon -->
+                </span>
+                <input
+                  class="form-control"
+                  type="text"
+                  placeholder="Find an AWS service or Region"
+                  id="search-input"
+                />
+              </div>
+            </div>
+            <form class="col-3">
+              <div class="mb-3">
+                <input
+                  type="date"
+                  class="form-control"
+                  id="datePicker"
+                  name="date"
+                />
+              </div>
+            </form>
+          </div>
         </div>
-        <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1">
-          <div class="p-2 col">
-            <button class="py-3 shadow-sm rounded-3 fw-medium fs-6 btn w-100">
-              Lorem Ipsum
-            </button>
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+          <li class="nav-item">
+            <a
+              href="#northamerica"
+              class="nav-link active"
+              data-bs-toggle="tab"
+              role="tab"
+            >
+              North America
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="#southamerica"
+              class="nav-link"
+              data-bs-toggle="tab"
+              role="tab"
+            >
+              South America
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#europe" class="nav-link" data-bs-toggle="tab" role="tab">
+              Europe
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#africa" class="nav-link" data-bs-toggle="tab" role="tab">
+              Africa
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="#asiapacific"
+              class="nav-link"
+              data-bs-toggle="tab"
+              role="tab"
+            >
+              Asia Pasific
+            </a>
+          </li>
+        </ul>
+
+        <!-- Tabs content -->
+        <div class="tab-content">
+          <div
+            class="tab-pane fade show active"
+            id="middleeast"
+            role="tabpanel"
+          >
+            <!-- Basic table -->
+            <div class="table-responsive">
+              <table class="table table-borderless">
+                <thead>
+                  <tr>
+                    <th>Service</th>
+                    <th class="text-center">RSS</th>
+                    <th class="text-center">Today</th>
+                    <th class="text-center">26 Sep</th>
+                    <th class="text-center">25 Sep</th>
+                    <th class="text-center">24 Sep</th>
+                    <th class="text-center">23 Sep</th>
+                    <th class="text-center">22 Sep</th>
+                    <th class="text-center">21 Sep</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Alexa For Bussiness</th>
+                    <td class="text-center"><i class="ai-bar-chart"></i></td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Alexa For Bussiness</th>
+                    <td class="text-center"><i class="ai-bar-chart"></i></td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Alexa For Bussiness</th>
+                    <td class="text-center"><i class="ai-bar-chart"></i></td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Alexa For Bussiness</th>
+                    <td class="text-center"><i class="ai-bar-chart"></i></td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Alexa For Bussiness</th>
+                    <td class="text-center" class="text-center">
+                      <i class="ai-bar-chart"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Alexa For Bussiness</th>
+                    <td class="text-center"><i class="ai-bar-chart"></i></td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
-          <div class="p-2 col">
-            <button class="py-3 shadow-sm rounded-3 fw-medium fs-6 btn w-100">
-              Lorem Ipsum
-            </button>
+          <div class="tab-pane fade" id="southamerica" role="tabpanel">
+            <div class="table-responsive">
+              <table class="table table-borderless">
+                <thead>
+                  <tr>
+                    <th>Service</th>
+                    <th class="text-center">RSS</th>
+                    <th class="text-center">Today</th>
+                    <th class="text-center">26 Sep</th>
+                    <th class="text-center">25 Sep</th>
+                    <th class="text-center">24 Sep</th>
+                    <th class="text-center">23 Sep</th>
+                    <th class="text-center">22 Sep</th>
+                    <th class="text-center">21 Sep</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Alexa For Bussiness</th>
+                    <td class="text-center"><i class="ai-bar-chart"></i></td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Alexa For Bussiness</th>
+                    <td class="text-center"><i class="ai-bar-chart"></i></td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Alexa For Bussiness</th>
+                    <td class="text-center"><i class="ai-bar-chart"></i></td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Alexa For Bussiness</th>
+                    <td class="text-center"><i class="ai-bar-chart"></i></td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Alexa For Bussiness</th>
+                    <td class="text-center" class="text-center">
+                      <i class="ai-bar-chart"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Alexa For Bussiness</th>
+                    <td class="text-center"><i class="ai-bar-chart"></i></td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
-          <div class="p-2 col">
-            <button class="py-3 shadow-sm rounded-3 fw-medium fs-6 btn w-100">
-              Lorem Ipsum
-            </button>
+          <div class="tab-pane fade" id="europe" role="tabpanel">
+            <div class="table-responsive">
+              <table class="table table-borderless">
+                <thead>
+                  <tr>
+                    <th>Service</th>
+                    <th class="text-center">RSS</th>
+                    <th class="text-center">Today</th>
+                    <th class="text-center">26 Sep</th>
+                    <th class="text-center">25 Sep</th>
+                    <th class="text-center">24 Sep</th>
+                    <th class="text-center">23 Sep</th>
+                    <th class="text-center">22 Sep</th>
+                    <th class="text-center">21 Sep</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Alexa For Bussiness</th>
+                    <td class="text-center"><i class="ai-bar-chart"></i></td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Alexa For Bussiness</th>
+                    <td class="text-center"><i class="ai-bar-chart"></i></td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Alexa For Bussiness</th>
+                    <td class="text-center"><i class="ai-bar-chart"></i></td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Alexa For Bussiness</th>
+                    <td class="text-center"><i class="ai-bar-chart"></i></td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Alexa For Bussiness</th>
+                    <td class="text-center" class="text-center">
+                      <i class="ai-bar-chart"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Alexa For Bussiness</th>
+                    <td class="text-center"><i class="ai-bar-chart"></i></td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
-          <div class="p-2 col">
-            <button class="py-3 shadow-sm rounded-3 fw-medium fs-6 btn w-100">
-              Lorem Ipsum
-            </button>
+          <div class="tab-pane fade" id="africa" role="tabpanel">
+            <div class="table-responsive">
+              <table class="table table-borderless">
+                <thead>
+                  <tr>
+                    <th>Service</th>
+                    <th class="text-center">RSS</th>
+                    <th class="text-center">Today</th>
+                    <th class="text-center">26 Sep</th>
+                    <th class="text-center">25 Sep</th>
+                    <th class="text-center">24 Sep</th>
+                    <th class="text-center">23 Sep</th>
+                    <th class="text-center">22 Sep</th>
+                    <th class="text-center">21 Sep</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Alexa For Bussiness</th>
+                    <td class="text-center"><i class="ai-bar-chart"></i></td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Alexa For Bussiness</th>
+                    <td class="text-center"><i class="ai-bar-chart"></i></td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Alexa For Bussiness</th>
+                    <td class="text-center"><i class="ai-bar-chart"></i></td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Alexa For Bussiness</th>
+                    <td class="text-center"><i class="ai-bar-chart"></i></td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Alexa For Bussiness</th>
+                    <td class="text-center" class="text-center">
+                      <i class="ai-bar-chart"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Alexa For Bussiness</th>
+                    <td class="text-center"><i class="ai-bar-chart"></i></td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
-          <div class="p-2 col">
-            <button class="py-3 shadow-sm rounded-3 fw-medium fs-6 btn w-100">
-              Lorem ipsum dolor sit
-            </button>
+          <div class="tab-pane fade" id="asiapacific" role="tabpanel">
+            <div class="table-responsive">
+              <table class="table table-borderless">
+                <thead>
+                  <tr>
+                    <th>Service</th>
+                    <th class="text-center">RSS</th>
+                    <th class="text-center">Today</th>
+                    <th class="text-center">26 Sep</th>
+                    <th class="text-center">25 Sep</th>
+                    <th class="text-center">24 Sep</th>
+                    <th class="text-center">23 Sep</th>
+                    <th class="text-center">22 Sep</th>
+                    <th class="text-center">21 Sep</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Alexa For Bussiness</th>
+                    <td class="text-center"><i class="ai-bar-chart"></i></td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Alexa For Bussiness</th>
+                    <td class="text-center"><i class="ai-bar-chart"></i></td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Alexa For Bussiness</th>
+                    <td class="text-center"><i class="ai-bar-chart"></i></td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Alexa For Bussiness</th>
+                    <td class="text-center"><i class="ai-bar-chart"></i></td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Alexa For Bussiness</th>
+                    <td class="text-center" class="text-center">
+                      <i class="ai-bar-chart"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Alexa For Bussiness</th>
+                    <td class="text-center"><i class="ai-bar-chart"></i></td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
-          <div class="p-2 col">
-            <button class="py-3 shadow-sm rounded-3 fw-medium fs-6 btn w-100">
-              Lorem ipsum dolor sit
-            </button>
-          </div>
-          <div class="p-2 col">
-            <button class="py-3 shadow-sm rounded-3 fw-medium fs-6 btn w-100">
-              Lorem Ipsum
-            </button>
-          </div>
-          <div class="p-2 col">
-            <button class="py-3 shadow-sm rounded-3 fw-medium fs-6 btn w-100">
-              Lorem Ipsum
-            </button>
-          </div>
-          <div class="p-2 col">
-            <button class="py-3 shadow-sm rounded-3 fw-medium fs-6 btn w-100">
-              Lorem Ipsum
-            </button>
-          </div>
-          <div class="p-2 col">
-            <button class="py-3 shadow-sm rounded-3 fw-medium fs-6 btn w-100">
-              Lorem Ipsum
-            </button>
-          </div>
-          <div class="p-2 col">
-            <button class="py-3 shadow-sm rounded-3 fw-medium fs-6 btn w-100">
-              Lorem ipsum dolor sit
-            </button>
-          </div>
-          <div class="p-2 col">
-            <button class="py-3 shadow-sm rounded-3 fw-medium fs-6 btn w-100">
-              Lorem ipsum dolor sit
-            </button>
+          <div class="tab-pane fade" id="middleeast" role="tabpanel">
+            <div class="table-responsive">
+              <table class="table table-borderless">
+                <thead>
+                  <tr>
+                    <th>Service</th>
+                    <th class="text-center">RSS</th>
+                    <th class="text-center">Today</th>
+                    <th class="text-center">26 Sep</th>
+                    <th class="text-center">25 Sep</th>
+                    <th class="text-center">24 Sep</th>
+                    <th class="text-center">23 Sep</th>
+                    <th class="text-center">22 Sep</th>
+                    <th class="text-center">21 Sep</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Alexa For Bussiness</th>
+                    <td class="text-center"><i class="ai-bar-chart"></i></td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Alexa For Bussiness</th>
+                    <td class="text-center"><i class="ai-bar-chart"></i></td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Alexa For Bussiness</th>
+                    <td class="text-center"><i class="ai-bar-chart"></i></td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Alexa For Bussiness</th>
+                    <td class="text-center"><i class="ai-bar-chart"></i></td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Alexa For Bussiness</th>
+                    <td class="text-center" class="text-center">
+                      <i class="ai-bar-chart"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Alexa For Bussiness</th>
+                    <td class="text-center"><i class="ai-bar-chart"></i></td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                    <td class="text-center">
+                      <i class="ai-check-circle text-success"></i>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </section>
@@ -296,7 +1357,7 @@
         <div class="col-lg-5">
           <a class="navbar-brand fw-medium fs-4" href="#">
             <img
-              src="../image/netfin-logo.png"
+              src="images/netfin-logo.png"
               alt="Logo"
               width="30"
               height="24"
